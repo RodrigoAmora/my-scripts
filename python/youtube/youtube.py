@@ -36,8 +36,7 @@ def gerar_descricao(video, video_id, arquivo_saida="descricao.txt"):
 
 
 if __name__ == "__main__":
-    # 🔗 coloque aqui a URL do vídeo do YouTube
-    url = "https://www.youtube.com/watch?v=VIDEO_ID"
+    url = input("Digite a URL do vídeo do YouTube: ")
 
     yt, caminho_video = baixar_video(url)
     video_id = url.split("v=")[-1]
