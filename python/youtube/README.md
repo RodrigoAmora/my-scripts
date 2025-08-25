@@ -22,6 +22,6 @@ Clone o repositório e instale as dependências:
 
 ```bash
 git clone https://github.com/seu-usuario/youtube-downloader.git
-cd youtube-downloader
+cd meus-scripts/python/youtube
 pip install -r requirements.txt
 ```
