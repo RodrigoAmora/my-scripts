@@ -1,0 +1,39 @@
+body {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.neon {
+  font-size: 60px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Arial, sans-serif;
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;
+  animation: pulsar 1.5s infinite alternate;
+}
+
+@keyframes pulsar {
+  from {
+    text-shadow:
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff,
+      0 0 40px #0ff;
+    opacity: 1;
+  }
+  to {
+    text-shadow:
+      0 0 2px #0ff,
+      0 0 5px #0ff,
+      0 0 10px #0ff,
+      0 0 20px #0ff;
+    opacity: 0.6;
+  }
+}
