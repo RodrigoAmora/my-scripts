@@ -1,10 +1,10 @@
 # my-scripts
-Description:
-------------
+Description
+-----------
 My scripts in different languages
 
-Author:
--------
+Author
+------
 <b>Rodrigo Amora</b>
 
 LinkedIn: https://linkedin.com/in/rodrigoamora <br>
